@@ -60,9 +60,9 @@
             </div>
         </section>
     </header>
-    <main class="container">
+    <main class="main-width">
         <!-- change your habits section  -->
-        <section class="margin-top">
+        <section class="container margin-top">
             <h2 class="body-title text-center">
                 Change Your Habits
             </h2>
@@ -94,7 +94,7 @@
             </div>
         </section>
         <!-- run an extra mile -->
-        <section class="extra-mile margin-top">
+        <section class="container extra-mile margin-top">
             <div id="extra-mile-container">
                 <div class="extra-mile-content">
                     <h2 class="body-title" id="extra-mile-title">
@@ -112,7 +112,7 @@
 
         </section>
         <!-- trainings and exercises -->
-        <section class="trainings-exercises margin-top">
+        <section class="container trainings-exercises margin-top">
             <div class="trainings-content">
                 <h2 class="body-title">Trainings and Exercises</h2>
                 <p class="body-paragraph">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
@@ -144,6 +144,66 @@
             </div>
         </section>
 
+        <!-- BMI Calculator section  -->
+            <section class="bmi-calculator">
+
+                <div class="bmi-content">
+                    <h2 class="body-title">BMI Calculator </h2>
+                    <p class="body-paragraph">A BMI calculator quickly assesses body fat using height and weight, helping determine potential health risk categories</p>
+                </div>
+                <div id="bmi-fullwidth-bg">
+                    <div class="container" id="bmi-calculator">
+                        <div class="table-container">
+                            <h4>BMI calculator Chart</h4>
+                            <table>
+                                <tr>
+                                    <th>BMI</th>
+                                    <th>Weight Status</th>
+                                </tr>
+                                <tr>
+                                    <td>Below 18.5</td>
+                                    <td>Underweight</td>
+                                </tr>
+                                <tr>
+                                    <td>18.5 - 24.9</td>
+                                    <td>Healthy</td>
+                                </tr>
+                                <tr>
+                                    <td>25.0 - 29.9</td>
+                                    <td>Overweight</td>
+                                </tr>
+                                <tr>
+                                    <td>30.0 - and Above</td>
+                                    <td>Obese</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="calculator-container">
+                            <div class="calculator-content">
+                                <h4>Calculate your BMI</h4>
+                            <p class="body-paragraph"> calculator is a tool used to determine an individual's body fat based on their height and weight.</p>
+                            </div>
+
+                            <form id="calculate-form" action="">
+                                <input type="number" name="" id="" placeholder="Height/cm">
+                                <input type="number" name="" id="" placeholder="Weight/kg">
+                                <input type="number" name="" id="" placeholder="Age">
+                                <select name="" id="">
+                                    <Option>Sex</Option>
+                                    <Option>Male</Option>
+                                    <Option>Female</Option>
+                                </select>
+                                <select name="" id="activity-factor">
+                                    <Option>Select an activity factor</Option>
+                                    <Option>Factor -1</Option>
+                                    <Option>Factor -2</Option>
+                                </select>
+                                <button class="primary-btn ">Calculate</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
         
 
     </main>
