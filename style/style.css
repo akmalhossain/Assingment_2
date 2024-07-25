@@ -205,6 +205,7 @@ body {
     position: absolute;
     left: -113px;
     bottom: 65px;
+    
 }
 
 .round-shape {
@@ -243,6 +244,7 @@ body {
     position: absolute;
     top: 125px;
     right: -75px;
+    
 }
 
 .free-video-number {
@@ -483,7 +485,57 @@ body {
     left: 16px;
     bottom: 16px;
 }
+/* <!-- unique section  --> */
 
+/* Footer section style  */
+
+#footer{
+    background-color: rgba(255, 255, 255, 0.1) ;
+}
+#footer-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 100px;
+    padding: 66px 0 79px;
+}
+.footer-menu-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-logo > h2{
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 120%;
+    font-style: italic;
+    
+}
+.footer-menu-title{
+    font-size: 32px;
+    font-weight: 700;
+}
+.footer-menu{
+    margin-top:39px ;
+}
+.footer-menu > li{
+    list-style: none;
+    margin-bottom: 20px;
+
+}
+.footer-menu > li > a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 23px;
+}
+.hr-border{
+    width: 100%;
+    border: 1px solid  rgba(255, 255, 255, 0.1);
+}
+#copy-right > p {
+    font-size: 20px;
+    padding: 36px 0 36px ;
+    color: rgba(255, 255, 255, 0.5);
+}
 /* mobile responsive  */
 
 
@@ -603,6 +655,7 @@ body {
     }
     .calculator-content{
         width: 353px;
+        margin-top: 42px;
     }
     #bmi-calculator{
         flex-direction: column;
@@ -624,6 +677,16 @@ body {
 }
 .trainer-image{
     height: auto;
+}
+/* footer  */
+
+#footer-content{
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+}
+.footer-menu-items{
+    flex-direction: column;
+    align-items: start;
 }
 }
 
@@ -657,7 +720,7 @@ body {
 
     .hero-banner-content {
         max-width: 100%;
-        padding-left: 150px;
+        padding-left: 72px;
     }
 
     .hero-title {
@@ -721,5 +784,17 @@ body {
     .our-team-container{
         margin-bottom: 76px;
     }
-    
+    /* footer  */
+    #footer-content{
+        grid-template-columns: 1fr;
+        row-gap: 102px;
+    }
+    .footer-logo{
+        width: 443px;
+    }
+    .footer-menu-items{
+        width: 514px;
+    }
+
+
 }
