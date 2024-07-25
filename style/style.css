@@ -453,6 +453,36 @@ body {
 #calculate-form > button{
     margin-top: 22px;
 }
+/* Our our-team */
+.our-team-content{
+    width: 671px;
+    margin: 88px auto 58px;
+}
+
+.our-team-container{
+    background-color:rgba(255, 255, 255, 0.1) ;
+    padding: 20px;
+    border-radius: 18px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 272px) ;
+    gap: 20px;
+    margin-bottom: 88px;
+    
+}
+.trainer-card{
+    position: relative;
+}
+.trainer-image{
+    width: 100%;
+    height: 272px;
+    filter: brightness(90%);
+}
+.trainer-name{
+    position: absolute;
+    left: 16px;
+    bottom: 16px;
+}
 
 /* mobile responsive  */
 
@@ -582,6 +612,19 @@ body {
         width: 90%;
         margin: 30px auto 32px;
     }
+
+    /* Our our-team */
+.our-team-content{
+    width: 309px;
+    margin: 66px auto 37px;
+}
+.our-team-container{
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+.trainer-image{
+    height: auto;
+}
 }
 
 
@@ -674,6 +717,9 @@ body {
         margin: 72px auto 46px;
 
     }
+    /* Our team  */
+    .our-team-container{
+        margin-bottom: 76px;
+    }
     
-
 }
