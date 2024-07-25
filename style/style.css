@@ -310,76 +310,64 @@ body {
     margin-bottom: 34px;
 }
 
+
+
+/* trainings and exercises */
 .trainings-content {
     width: 650px;
 }
-
-/* trainings and exercises */
 .trainings{
     margin-top: 58px;
+    
 }
 .trainings-row-1{
     display: grid;
-    /* grid-template-columns: 250px 520px 290px; */
-    grid-template-columns: 23.6% 49.057% 27.358%;
-    grid-template-rows: auto;
-}
-.row-1-col-1 > img{
-    width: 100%;
-    
-}
-.row-1-col-2 > img{
-    width: 100%;
-    
-}
-.row-1-col-3 > img{
-    width: 100%;
-    
-}
-.row-1-col-1, .row-1-col-2, .row-1-col-3{
- position: relative;
+    grid-template-columns:250px 520px  290px;
+    grid-template-rows: 202px;
 }
 
-.overlay{
-    width: 100%;
-    height: 100%;
-}
-
-#overlay-col-1{
-    position: absolute;
-    top: 0px;
+.trainings-column-1{
     display: flex;
-    align-items: end;
-    background-color: rgba(6, 255, 210, 0.5);
-}
-#overlay-col-1 > p{
     padding: 20px;
-
+    align-items: end;
+    background: linear-gradient(0deg, rgba(6, 255, 210, 0.50) 0%, rgba(6, 255, 210, 0.50) 100%), url(../images/exercise1.jpg) lightgray 50% / cover no-repeat;
 }
-#overlay-col-2{
-    position: absolute;
-    top: 0px;
+.trainings-column-2{
     display: flex;
+    padding: 20px;
     align-items: start;
-    background-color: rgba(255, 0, 0, 0.3);
+    background: linear-gradient(0deg, rgba(255, 0, 0, 0.30) 0%, rgba(255, 0, 0, 0.30) 100%), url(../images/exercise2.png) lightgray -0.336px 0px / 100.125% 111.811% no-repeat;
+    background-position: center;
+    background-size: cover;
 }
-#overlay-col-2 > p{
-    padding: 20px;
-
-}
-#overlay-col-3{
-    position: absolute;
-    top: 0px;
+.trainings-column-3{
     display: flex;
-    align-items: end;
-    background-color:rgba(0, 0, 0, 0.5);
-}
-#overlay-col-3 > p{
     padding: 20px;
-
+    align-items: end;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(../images/exercise3.png) lightgray 50% / cover no-repeat;
 }
-.trainings-content {
-    width: 330px;
+.trainings-row-2{
+    display: grid;
+    grid-template-columns:425px 288px  347px;
+    grid-template-rows: 202px;
+}
+.trainings-column-4{
+    display: flex;
+    padding: 20px;
+    justify-content: end;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(../images/exercise4.png) lightgray 50% / cover no-repeat;
+}
+.trainings-column-5{
+    display: flex;
+    padding: 20px;
+    align-items: end;
+    background: linear-gradient(0deg, rgba(66, 255, 0, 0.30) 0%, rgba(66, 255, 0, 0.30) 100%), url(../images/exercise5.jpg) lightgray 50% / cover no-repeat;
+}
+.trainings-column-6{
+    display: flex;
+    padding: 20px;
+    align-items: end;
+    background: linear-gradient(0deg, rgba(0, 71, 255, 0.30) 0%, rgba(0, 71, 255, 0.30) 100%), url(../images/exercise6.jpg) lightgray 50% / cover no-repeat;
 }
 
 
@@ -391,6 +379,9 @@ body {
     /* shared responsive style  */
     .container {
         max-width: 90%;
+    }
+    .margin-top{
+        margin-top: 66px;
     }
     .body-paragraph{
         font-size: 14px;
@@ -468,6 +459,29 @@ body {
         width: 100%;
     }
 
+    /* Trainings and exercises */
+    .trainings-content{
+        width: 287px;
+    }
+    .trainings{
+        margin-top: 38px;
+        
+    }
+    .trainings-column-3{
+        display: none;
+    }
+    .trainings-row-1{
+    grid-template-columns:250px 269px;
+    grid-template-rows: 150px;
+    }
+    .trainings-column-6{
+        display: none;
+    }
+    .trainings-row-2{
+        display: grid;
+        grid-template-columns:230px 288px;
+        grid-template-rows: 150px;
+    }
 }
 
 /* tab responsive  */
@@ -519,7 +533,18 @@ body {
     }
 
     /* run extra mile  */
+/*  */
 
+/* Trainings and exercises */
 
-
+    .trainings-row-1{
+        display: grid;
+        grid-template-columns:300px 345px  297px;
+        grid-template-rows: 202px;
+    }
+    .trainings-row-2{
+        display: grid;
+        grid-template-columns:362px 296px  284px;
+        grid-template-rows: 202px;
+    }
 }
